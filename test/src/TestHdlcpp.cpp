@@ -228,3 +228,4 @@ TEST_CASE_METHOD(HdlcppFixture, "hdlcpp test", "[single-file]")
         CHECK(hdlcpp->read(buffer, sizeof(buffer)) == 2);
     }
 }
+
